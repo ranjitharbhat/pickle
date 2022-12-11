@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 2s;
+}
+body {
+  font-family: "lato", sans-serif;
+  background-color: rgb(253, 252, 250);
+
+  color: #333;
+  line-height: 1.6;
+}
+#email {
+  width: 75%;
+}
+h1 {
+  font-size: 50px;
+  font-style: oblique;
+  color: rgb(73, 67, 90);
+}
+#has {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+#button {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: black;
+  color: bisque;
+  border-radius: 7px;
+  height: 35px;
+  width: 60px;
+}
+#v {
+  font-size: 20px;
+
+  font-weight: bold;
+  color: rgb(106, 133, 133);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+li {
+  margin: 0 1em;
+}
+#header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(142, 140, 219);
+  padding: 0%;
+}
+#nav-bar {
+  display: flex;
+}
+#header-img {
+  height: 200px;
+  width: 200px;
+}
+.container-flex {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.container-flex .card {
+  background-color: rgb(247, 238, 248);
+  box-shadow: 0 4px 8px 0;
+  text-align: center;
+  margin: 18px 10px 40px;
+}
+@media (max-width: 500px) {
+  .navbar {
+    height: 110px;
+  }
+}
+footer {
+  background-color: rgb(142, 140, 219);
+  padding-left: 20%;
+}
+.one {
+  font-size: 32px;
+}
+.r {
+  display: flex;
+}
+.r > div {
+  flex: 1;
+}
