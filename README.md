@@ -4,3 +4,4 @@
 
 # many elements such as navbar, footers, cards and many more are used.
 # pickle
+# pickles

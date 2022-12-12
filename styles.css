@@ -7,13 +7,18 @@
 }
 body {
   font-family: "lato", sans-serif;
-  background-color: rgb(253, 252, 250);
+  background-image: linear-gradient(
+    to right,
+    rgb(252, 215, 237),
+    pink,
+    rgb(167, 224, 247)
+  );
 
   color: #333;
   line-height: 1.6;
 }
 #email {
-  width: 75%;
+  width: 85%;
 }
 h1 {
   font-size: 50px;
@@ -35,6 +40,7 @@ button {
   height: 35px;
   width: 60px;
 }
+
 #v {
   font-size: 20px;
 
@@ -56,9 +62,16 @@ li {
   background-color: rgb(142, 140, 219);
   padding: 0%;
 }
-#nav-bar {
-  display: flex;
+
+nav a:hover {
+  background-color: #ddd;
+  color: #333;
 }
+#nav-bar a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
 #header-img {
   height: 200px;
   width: 200px;
@@ -68,7 +81,7 @@ li {
   padding-right: 25%;
 }
 .container-flex .card {
-  background-color: rgb(247, 238, 248);
+  background-color: rgb(228, 190, 233);
   box-shadow: 0 4px 8px 0;
   text-align: center;
   margin: 18px 10px 40px;
